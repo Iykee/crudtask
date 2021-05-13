@@ -13,7 +13,7 @@ mongoose.connect(connectionString,{
 },(err) => {
     if (err){
         console.log(err)
-    }else{ console.log('connectiion sucessful')}
+    }else{ console.log('connectiion sucessfull')}
 })
 const crudSchema = new mongoose.Schema({
     name: String,
