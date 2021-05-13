@@ -3,7 +3,7 @@ const app = express();
 const port = 4000;
 
 const mongoose = require('mongoose')
-const connectionString = 'mongodb://localhost:27017/crudapp';
+const connectionString = 'mongodb+srv://iykezuridb:ADA168@cluster0.blb7f.mongodb.net/crudapp?retryWrites=true&w=majority';
 app.use(express.json())
 
 mongoose.connect(connectionString,{
